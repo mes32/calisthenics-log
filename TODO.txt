@@ -1,0 +1,6 @@
+App deploys and builds web server on Heroku
+A create-react-app client frontend that is served from web server
+Front-end can call server and receive a counter to display
+App deploys and builds frontend on Heroku
+Connect to PostgreSQL database and display a table as a list
+Connect to PostgreSQL database on Heroku
