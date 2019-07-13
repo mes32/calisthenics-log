@@ -1,1 +1,0 @@
-web: java -jar build/libs/calisthenics-log-0.1.0.jar
