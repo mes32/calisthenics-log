@@ -57,5 +57,11 @@ task webpack(type: NodeTask, dependsOn: 'npmInstall') {
 
 // processResources.dependsOn 'webpack'
 
+processResources {
+  from ('frontend/build') {
+    include '**/'
+  }
+}
+
 clean.delete << file('node_modules')
 clean.delete << file('src/main/webapp/dist')
