@@ -5,3 +5,8 @@ wrapper {
     gradleVersion = '5.0'
     distributionUrl = "http://services.gradle.org/distributions/gradle-${gradleVersion}-all.zip"
 }
+
+// task build(dependsOn: ['server', 'client'])
+
+task stage(dependsOn: ['build'])
+// // build.mustRunAfter clean
