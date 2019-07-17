@@ -5,15 +5,8 @@
 /.pnp
 .pnp.js
 
-# Java class files and jar files
-*.class
-*.jar
-
 # testing
 /coverage
-
-# production
-/build
 
 # misc
 .DS_Store

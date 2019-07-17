@@ -2,6 +2,14 @@
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
+# Java class files and jar files
+*.class
+*.jar
+
+# build directories
+/server/build
+/client/build
+
 ### STS ###
 .apt_generated
 .classpath
