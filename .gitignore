@@ -7,7 +7,7 @@
 *.jar
 
 # build directories
-/server/build
+/build
 /client/build
 
 ### STS ###
