@@ -1,4 +1,0 @@
-rootProject.name = 'calisthenics-log'
-
-include 'server'
-include 'client'
