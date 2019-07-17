@@ -8,5 +8,6 @@ wrapper {
 
 // task build(dependsOn: ['server', 'client'])
 
-task stage(dependsOn: ['build'])
-// // build.mustRunAfter clean
+task build(dependsOn: ['server', 'client'])
+build.mustRunAfter server
+build.mustRunAfter client
