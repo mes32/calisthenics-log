@@ -7,8 +7,9 @@
 *.jar
 
 # build directories
-/build
-/client/build
+/target/
+/build/
+/client/build/
 
 ### STS ###
 .apt_generated
